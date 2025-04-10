@@ -1,6 +1,4 @@
 import { initWebGPU } from "./renderer";
-// import { fragmentSource } from "./shaders/fragment.wgsl"
-// import { vertexSource } from "./shaders/vertex.wgsl";
 
 const triangle = /* wgsl */`
   struct OurVertexShaderOutput {
